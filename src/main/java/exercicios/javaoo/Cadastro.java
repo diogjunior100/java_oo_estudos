@@ -16,6 +16,7 @@ public class Cadastro {
     Scanner sc = new Scanner(System.in);
     
     void cadastrarDados(){
+        System.out.println("Diga seu ano: ");
 	ano = sc.nextInt();
         nome = sc.next();
         

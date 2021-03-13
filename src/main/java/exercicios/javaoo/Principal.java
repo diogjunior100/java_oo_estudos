@@ -6,13 +6,14 @@ import javax.swing.JOptionPane;
 
 public class Principal {
    
+   
 	public static void main(String[] args) {
           
-            
-            Cadastro ca = new Cadastro();
-            
-            ca.cadastrarDados();
-            ca.imprimirDados();
+           Cadastro ca = new Cadastro();
+           ca.cadastrarDados();
+           ca.imprimirDados();
+           
+                 
             
     }
 	
