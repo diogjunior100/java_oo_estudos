@@ -1,14 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package exercicio3;
 
-/**
- *
- * @author diogj
- */
 public class Quadrado {
+    static int l1,
+               l2,
+               l3,
+                l4;
+    static int perimetroq,
+               areaq;
     
+    Quadrado(int l1, int l2, int l3, int l4){
+        this.l1 = l1;
+        this.l2 = l2;
+        this.l3 = l3;
+        this.l4 = l4;
+    }
 }
