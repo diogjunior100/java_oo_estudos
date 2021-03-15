@@ -5,10 +5,14 @@
  */
 package praticaAula;
 
-/**
- *
- * @author diogj
- */
 public class PessoaFisica {
+    private static String nome;
+    private static String cpf;
+    
+    public PessoaFisica(String nome, String cpf){
+        this.nome = nome;
+        this.cpf = cpf;
+    }
+        
     
 }
