@@ -64,6 +64,7 @@ public class principalApp {
                 cadastroApp ca = new cadastroApp(nome, ano);
                 
                 nome = sc.next();
+                
                 ano = sc.nextInt();
                         
 		
