@@ -7,7 +7,8 @@ import static exercicio3.Triangulo.l1;
 import static exercicio3.Triangulo.l2;
 import static exercicio3.Triangulo.l3;
 import static exercicio3.Triangulo.perimetro;
-import static exercicio3.Quadrado.l4;        
+import static exercicio3.Quadrado.l4;     
+
 import java.util.Scanner;
 
 
