@@ -5,6 +5,9 @@ import java.util.Scanner;
 
 import javax.swing.JOptionPane;
 
+import static exercicio2.cadastroApp.nome;
+import static exercicio2.cadastroApp.ano;
+
 public class principalApp {
     
     static cadastroApp[] cadastros;
@@ -56,16 +59,15 @@ public class principalApp {
 	}
         
         static void cadastrar() {
-		String nome = JOptionPane.showInputDialog("Informe o seu nome: ");
-		String strAno = JOptionPane.showInputDialog("Informe o seu ano de nascimento: ");
-		
-		//conversao de tipos
-		int ano = Integer.parseInt(strAno);
-		
+            
+		Scanner sc = new Scanner(System.in);
+                cadastroApp ca = new cadastroApp(nome, ano);
+                
+                nome = sc.next();
+                ano = sc.nextInt();
+                        
 		
 		//instanciar um objeto do tipo ProgressaoAritmetica
-		cadastroApp ca = new cadastroApp(nome, ano);
-		
 		cadastros[posicaoLivre] = ca;
 		posicaoLivre++;
 	}
