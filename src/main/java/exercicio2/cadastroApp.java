@@ -3,10 +3,10 @@ package exercicio2;
 
 public class cadastroApp {
     
-    static int nome;
+    static String nome;
     static int ano;
     
-        cadastroApp(int nome, int ano){
+        cadastroApp(String nome, int ano){
             this.nome = nome;
             this.ano = ano;
             
